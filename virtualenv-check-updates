@@ -72,10 +72,3 @@ if __name__ == "__main__":
     
     for package in packages:
         checkPackageVersion(package.name, package.version)
-
-    """
-    TODO: opzione a riga di comando per mnostrare tutti i pacchetti o solo quelli da aggiornare
-    TODO: automatic update
-    TODO: verify if version number is different o greater
-    TODO: command line --version
-    """
